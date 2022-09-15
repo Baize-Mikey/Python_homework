@@ -4,7 +4,7 @@ count = 0
 sum = 0.0
 i = 0
 while 1:
-    val = input('ÇëÊäÈëÒ»¸öÊı£º')
+    val = input('è¯·è¾“å…¥ä¸€ä¸ªæ•°ï¼š')
     max = min = val
     try:
 
@@ -28,6 +28,6 @@ while 1:
             arr.append(float(val))
             count = count + 1
     except ValueError:
-        print('·Ç·¨ÊäÈë')
+        print('éæ³•è¾“å…¥')
         print(ValueError)
         pass
