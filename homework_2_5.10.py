@@ -21,7 +21,7 @@ while 1:
             print("min :", ls[0])
             print("max :", ls[m])
             print("sum :", sum)
-            print("avg :", ave)
+            print("ave :", ave)
             exit()
         else:
             float(val)
@@ -31,3 +31,5 @@ while 1:
         print('非法输入')
         print(ValueError)
         pass
+
+   
